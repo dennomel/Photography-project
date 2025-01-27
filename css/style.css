@@ -1,4 +1,16 @@
-.set1 {
-  justify-self: center;
-  gap: 20px;
+.photo-row {
+  display: flex;
+  gap.100px;
+  justify-content:center;
+}
+.photo-set {
+    text-align: center;
+    margin: 100px;
+    padding: 0px;
+   
+}
+.photo-set img{
+    margin: 20px;
+    width: 100%;
+    size: max;
 }
