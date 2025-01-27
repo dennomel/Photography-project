@@ -5,7 +5,7 @@
 header {
     background-color: #dd8888;
     margin: 0;
-    padding: 10%;
+    padding: 5%;
     position: relative;
 }
 .nav-list {
@@ -13,11 +13,12 @@ header {
     justify-content: right;
     position: right;
     display: flex;
-    gap: 30px; 
+    gap: 50px; 
     list-style: none;
 }
 h3 {
     text-align: center;
+    margin-top: 10px;
 }
 .photo-row {
   display: flex;
@@ -35,4 +36,8 @@ h3 {
 }
 footer{
     text-align: center;
+}
+img {
+    border-radius: 5px;
+    image-resolution: 100px;
 }
