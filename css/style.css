@@ -8,6 +8,14 @@ header {
     padding: 5%;
     position: relative;
 }
+#logo {
+    justify-content: left;
+    border-radius: 100%;
+    margin: 0;
+}
+#heading {
+    text-align: right;
+}
 .nav-list {
     color: rgb(13, 200, 57);
     justify-content: right;
