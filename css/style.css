@@ -10,11 +10,14 @@ header {
 }
 .nav-list {
     color: rgb(13, 200, 57);
+    justify-content: right;
+    position: right;
     display: flex;
     gap: 30px; 
     list-style: none;
-    text-align: right;
-    position: absolute;
+}
+h3 {
+    text-align: center;
 }
 .photo-row {
   display: flex;
@@ -29,4 +32,7 @@ header {
 .photo-set img{
     margin: 20px;
     width: 100%;
+}
+footer{
+    text-align: center;
 }
