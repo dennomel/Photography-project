@@ -48,8 +48,8 @@ p {
   flex-wrap: wrap;
 }
 .photo-set {
+    gap: 100px;
     display: flex;
-    gap: 4000px;
     justify-content: center;
     padding: 0px;
    
@@ -67,4 +67,8 @@ img {
     object-fit: contain;
     border-radius: 5px;
     gap: 200px;
+}
+figure {
+    margin-right: 200px;
+    
 }
