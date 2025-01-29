@@ -68,7 +68,12 @@ img {
     border-radius: 5px;
     gap: 200px;
 }
+
+
 figure {
-    margin-right: 200px;
-    
+justify-content: center; 
+margin-right: 200px;  
+}
+figcaption {
+    justify-content: center;
 }
